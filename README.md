@@ -85,6 +85,4 @@ Built by Ko-dron  for the CodeAlpha Cybersecurity Internship, 2026.
 ![Sniffer running on Kali Linux](scrnshot.png) 
 
 
-## Capture summary
 
-![Capture summary](scrnshot0.png)
