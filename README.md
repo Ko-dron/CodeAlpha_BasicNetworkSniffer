@@ -80,6 +80,7 @@ This tool is for educational use only. Capturing network traffic on networks you
 
 Built by Ko-dron  for the CodeAlpha Cybersecurity Internship, 2026.
 
-## License
+## Screenshots
 
-MIT License — free to use, modify, and learn from.
+![Sniffer running on Kali Linux](scrnshot.png)
+![Sniffer running on Kali Linux - summary](scrnshot0.png)
