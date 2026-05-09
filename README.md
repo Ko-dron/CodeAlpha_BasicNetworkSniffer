@@ -61,11 +61,15 @@ sudo python3 sniffer.py
 Press `Ctrl+C` to stop and view the summary report.
 
 ## Sample Output
+
+```
 [18:17:59] [TCP]  10.0.2.15:52560 -> 108.139.200.120:443 | Flags: S | Size: 74B
 [18:17:59] [TCP]  108.139.200.120:443 -> 10.0.2.15:52560 | Flags: SA | Size: 60B
 [18:17:59] [TCP]  10.0.2.15:52560 -> 108.139.200.120:443 | Flags: A | Size: 54B
 [18:17:59] [DNS]  10.0.2.15 -> 192.168.100.1 | Query: ep2.adtrafficquality.google
 [18:17:59] [QUIC] 10.0.2.15:34504 -> 142.251.216.34:443 | Size: 74B
+```
+
 The sequence above shows a complete TCP three-way handshake to an Amazon CloudFront server, a DNS query for a Google ad-tracking domain, and a parallel QUIC connection to a Google service.
 
 ## Legal and Ethical Notice
